@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix
-    /* CSS */
+/* CSS */
     .sass('resources/sass/main.scss', 'public/css/oneui.css')
     .sass('resources/sass/oneui/themes/amethyst.scss', 'public/css/themes/')
     .sass('resources/sass/oneui/themes/city.scss', 'public/css/themes/')
